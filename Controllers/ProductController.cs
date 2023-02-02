@@ -62,7 +62,7 @@ namespace ProductService.Controllers
         public void Delete(int id)
         {
             db.Products.Remove(db.Products.Where(x => x.ProductID == id).SingleOrDefault());
-            db.SaveChanges();           
+            db.SaveChanges();     //git  repository created       
         }
 
        
